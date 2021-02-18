@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="616.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TableView fx:id="computerTableView" prefHeight="400.0" prefWidth="616.0">
+        <columns>
+          <TableColumn fx:id="idColumn" prefWidth="75.0" text="Id" />
+          <TableColumn fx:id="ramColumn" prefWidth="75.0" text="Ram" />
+            <TableColumn fx:id="hddColumn" prefWidth="75.0" text="Hdd" />
+            <TableColumn fx:id="powerSupplyColumn" prefWidth="137.0" text="powerSupply" />
+            <TableColumn fx:id="videoCardColumn" minWidth="0.0" prefWidth="141.0" text="videoCard" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>
